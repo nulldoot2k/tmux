@@ -210,3 +210,27 @@ tmux new-session -s session_name
 ```
 ssh <hostname> -t tmux <session_of_server>
 ```
+
+## Công cụ khác ngoài Tmux - Boybu
+
+Byobu là 1 trình hỗ trợ terminal. Nó mang đến nhiều chức năng hữu ích như chia đôi màn hình, mở tab nhanh,… (Mở windoư giống tmux)
+
+Cài đặt boybu
+
+```
+apt-get install -y byobu
+```
+
+Phím tắt
+
+F6 Detached (Thoát khỏi tiến trình mà không kill session)
+
+Shift F2 (Mở thêm pane nằm ngang)
+
+Ctr F2 (Mở thêm pane nằm dọc)
+
+Shift + Mũi tên Trái/Phải (Đổi qua lại giữa các màn hình)
+
+exit (Đóng một cửa sổ hay tab)
+
+F8 (Đổi tên window)
